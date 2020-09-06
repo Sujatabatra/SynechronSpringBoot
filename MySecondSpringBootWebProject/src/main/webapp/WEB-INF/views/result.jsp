@@ -9,6 +9,6 @@
 <body>
 <h1 style="text-align: center;">Login Page</h1>
 
-<h1>${msg }</h1>
+<h1>${user.username} ${msg }</h1>
 </body>
 </html>
