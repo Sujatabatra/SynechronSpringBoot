@@ -1,0 +1,88 @@
+What Spring Security can do?
+1. Username/password authentication
+2. SSO/Okta/Ldap
+3. App Level Authorization
+4. Intra App Authorization like OAuth
+5. Microservice Security ( with tokens like JWT)
+
+5 Core Concepts in Spring Security
+1. Authentication : Who you are with ID
+// username & password
+knowledge base authentication
+passwords
+pincode
+Answer to secret or personal ques
+
+Possession base authentication
+- phone/text message
+-key cards
+-access token
+
+Knowledge base + Possesion based authentication
+Multi Factor Authentication
+
+
+2. Authorization : Can this user do this? ( yes/no) 
+
+
+3. Principal : Currently Logged in user.
+If you are Authenticated to an application , you will be stored as a principal
+
+
+4. Granted Authority : Fine grained permission
+
+5. Roles : Group of authorities ( coarse grained permission)
+
+
+
+// Spring security Depedency  ( Basic Auth)
+1. Add login form
+2. Created a user & sets a default password
+3. logout page
+4. handle login error
+
+
+
+
+How to configure Spring Security Authentication
+
+1. add Dependency
+
+AuthenticationManager ==> AuthenticationManagerBuilder
+
+
+How we can configure Authorization
+Different Api having different access requirement
+
+API : /
+Allow Access it to All
+
+API : /user
+Allow Access it to USER and ADMIN Role
+
+API : /admin
+Allow Access it to ADMIN Role
+
+HttpSecurity : what are the paths and access restrictions to those paths.
+
+RabbitMQ builts on top of ErLang
+www.erlang.org/
+download and install erLang
+download and install RabbitMQ
+
+go to rabbitMQ server Directory
+rabbitmq-server start
+
+Intsall RabbitMQ plugin which gives RabbitMQ Management Console
+
+rabbitmq -plugins.bat enable rabbitmq management
+
+localhost:15672
+username & password : guest
+ 
+
+
+
+
+
+
