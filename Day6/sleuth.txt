@@ -1,0 +1,4 @@
+1. Application name of the service : default name of your service which u have specified in spring.application name in application.properties file.
+2 Trace ID : is the equivalent term for corelation ID . It's a unique number that represents the entire transaction.
+3. Span ID: is a unique ID that represents part of overall transaction . Each service Participating within the transaction will have its own span ID.
+4. Wheather Trace data was sent to Zipkin: 
